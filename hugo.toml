@@ -1,0 +1,31 @@
+baseURL = "https://tu-usuario.github.io/"
+languageCode = "es-es"
+title = "KryoneSP | Writeups"
+
+[params]
+    # Descripción que sale bajo el título
+    description = "Ciberseguridad, CTFs y Pentesting"
+    # Formato de fecha
+    dateFormat = "02 Jan 2006"
+
+    # información de autor para la página principal
+    [params.author]
+      intro = "Hola, soy **KryoneSP**, apasionado por la ciberseguridad, los CTFs y el pentesting."
+      description = "En este blog comparto mis writeups, tutoriales y reflexiones sobre hacking ético y tecnologías relacionadas. ¡Bienvenido/a y siéntete libre de explorar y dejar comentarios!"
+      # Ruta relativa dentro de /static o de recursos (por ejemplo "images/avatar.jpg")
+      avatar = "images/KryoneSP.png"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 1
+  [[menu.main]]
+    name = "Etiquetas"
+    url = "/tags"
+    weight = 2
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"

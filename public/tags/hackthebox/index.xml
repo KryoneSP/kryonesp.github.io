@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HackTheBox on KryoneSP | Writeups</title>
+    <link>http://localhost:1313/tags/hackthebox/</link>
+    <description>Recent content in HackTheBox on KryoneSP | Writeups</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 23 Feb 2026 12:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mi Primer Writeup</title>
+      <link>http://localhost:1313/posts/prueba1/</link>
+      <pubDate>Mon, 23 Feb 2026 12:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/prueba1/</guid>
+      
+      <description>&lt;p&gt;¡Hola! Este es mi primer writeup usando Hugo Blog Awesome.
+Aquí puedes empezar a escribir tus procedimientos.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
