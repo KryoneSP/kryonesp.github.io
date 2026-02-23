@@ -15,9 +15,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Hugo
-        uses: victoriaadams/hugo-setup@v1
+        uses: blue-beluga/hugo-bin-action@v1 # Esta es muy ligera y fiable
         with:
           hugo-version: 'latest'
           extended: true
@@ -28,7 +30,8 @@ jobs:
           go-version: '1.21'
 
       - name: Build with Hugo
-        run: hugo --minify
+        run: |
+          hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
