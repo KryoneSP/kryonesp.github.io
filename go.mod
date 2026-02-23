@@ -1,4 +1,4 @@
-module github.com/KryoneSP/blog
+module github.com/kryonesp/kryonesp.github.io
 
 go 1.24.9
 
