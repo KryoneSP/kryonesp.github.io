@@ -10,8 +10,8 @@ title = "KryoneSP | Writeups"
 
     # información de autor para la página principal
     [params.author]
-      intro = "Hola, soy **KryoneSP**, apasionado por la ciberseguridad, los CTFs y el pentesting."
-      description = "En este blog comparto mis writeups, tutoriales y reflexiones sobre hacking ético y tecnologías relacionadas. ¡Bienvenido/a y siéntete libre de explorar y dejar comentarios!"
+      intro = "Hi, I'm **KryoneSP**, a cybersecurity enthusiast with a passion for CTFs and pentesting."
+      description = "In this blog, I share my writeups, tutorials, and thoughts on ethical hacking and related technologies."
       # Ruta relativa dentro de /static o de recursos (por ejemplo "images/avatar.jpg")
       avatar = "images/KryoneSP.png"
 
